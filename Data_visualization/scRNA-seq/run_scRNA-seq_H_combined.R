@@ -12,14 +12,14 @@ return(data_obj)
 }
 
 ### load H data
-data_A2H <- ReadData10X("/mnt/hpc/users/data/2results/2025/01_scRNA/A2H_run/outs/filtered_feature_bc_matrix/","A2H")
-data_A3H <- ReadData10X("/mnt/hpc/users/data/2results/2025/01_scRNA/A3H_run/outs/filtered_feature_bc_matrix/","A3H")
-data_B1H <- ReadData10X("/mnt/hpc/users/data/2results/2025/01_scRNA/B1H_run/outs/filtered_feature_bc_matrix/","B1H")
-data_B2H <- ReadData10X("/mnt/hpc/users/data/2results/2025/01_scRNA/B2H_run/outs/filtered_feature_bc_matrix/","B2H")
-data_C2H <- ReadData10X("/mnt/hpc/users/data/2results/2025/01_scRNA/C2H_run/outs/filtered_feature_bc_matrix/","C2H")
-data_C3H <- ReadData10X("/mnt/hpc/users/data/2results/2025/01_scRNA/C3H_run/outs/filtered_feature_bc_matrix/","C3H")
-data_D1H <- ReadData10X("/mnt/hpc/users/data/2results/2025/01_scRNA/D1H_run/outs/filtered_feature_bc_matrix/","D1H")
-data_D2H <- ReadData10X("/mnt/hpc/users/data/2results/2025/01_scRNA/D2H_run/outs/filtered_feature_bc_matrix/","D2H")
+data_A2H <- ReadData10X("/mnt/hpc/users/data/2results/01_scRNA/A2H_run/outs/filtered_feature_bc_matrix/","A2H")
+data_A3H <- ReadData10X("/mnt/hpc/users/data/2results/01_scRNA/A3H_run/outs/filtered_feature_bc_matrix/","A3H")
+data_B1H <- ReadData10X("/mnt/hpc/users/data/2results/01_scRNA/B1H_run/outs/filtered_feature_bc_matrix/","B1H")
+data_B2H <- ReadData10X("/mnt/hpc/users/data/2results/01_scRNA/B2H_run/outs/filtered_feature_bc_matrix/","B2H")
+data_C2H <- ReadData10X("/mnt/hpc/users/data/2results/01_scRNA/C2H_run/outs/filtered_feature_bc_matrix/","C2H")
+data_C3H <- ReadData10X("/mnt/hpc/users/data/2results/01_scRNA/C3H_run/outs/filtered_feature_bc_matrix/","C3H")
+data_D1H <- ReadData10X("/mnt/hpc/users/data/2results/01_scRNA/D1H_run/outs/filtered_feature_bc_matrix/","D1H")
+data_D2H <- ReadData10X("/mnt/hpc/users/data/2results/01_scRNA/D2H_run/outs/filtered_feature_bc_matrix/","D2H")
 data_A2H
 # An object of class Seurat 
 # 26057 features across 15315 samples within 1 assay 
