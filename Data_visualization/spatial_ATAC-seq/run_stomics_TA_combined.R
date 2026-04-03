@@ -26,7 +26,7 @@ names(inputFiles) <- gsub("/outs/fragments.tsv.gz", "",
 names(inputFiles) <- gsub("^.*/","",names(inputFiles))
 
 ### selected T samples 
-T_samples <- c("A1TA4","A2TA4","A3TA4","B1TA4","B2TA4","C1TA4","C2TA4","C3TA2","D1TA4","D2TA5","D3TA5")
+T_samples <- c("A1TA4","A2TA4","A3TA4","B1TA4","B2TA4","C1TA4","C2TA4","C3TA2","D2TA5","D3TA5")
 inputFiles_selected <- inputFiles[T_samples]
 
 # addArchRChrPrefix(chrPrefix = FALSE)
